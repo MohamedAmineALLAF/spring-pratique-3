@@ -16,11 +16,11 @@ public class SpringPratique3Application {
         SpringApplication.run(SpringPratique3Application.class, args);
     }
 
-    @Bean
+    //@Bean
     CommandLineRunner commandLineRunner(PatientRepository patientRepository){
         return args -> {
             patientRepository.save(
-                    new Patient(null,"Hassan",new Date(),false,12)
+                    new Patient(null,"Hassan",new Date(),false,122)
             );
             patientRepository.save(
                     new Patient(null,"Marwane",new Date(),true,123)
