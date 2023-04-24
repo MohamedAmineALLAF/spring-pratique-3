@@ -1,9 +1,8 @@
 package com.example.springpratique3.sec;
 
-import org.springframework.security.config.annotation.web.WebSecurityConfigurer;
-import org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration;
+import org.springframework.context.annotation.Configuration;
 
-public class SecurityConfig {
-
+@Configuration
+public class SecurityConfig  {
 
 }
